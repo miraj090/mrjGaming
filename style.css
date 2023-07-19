@@ -1,1 +1,64 @@
 *{margin: 0px;}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 140px;    
+}
+
+.logo h2{
+    font-size: 35px;
+}
+.logo span{
+    color:  #36E9FD;
+   
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;    
+}
+
+.menu a{
+    text-decoration: none;
+    color:  #3C354F;
+}
+
+.menu li{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.folowUsOnPage{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.folowUsOnPage img{
+    width: 28px;
+    margin-left: 10px;
+}
+
+/*  ....... nav bar end  ......*/
+
+
+/*  ...... banner ...... */
+
+
+
+
+
+
+
