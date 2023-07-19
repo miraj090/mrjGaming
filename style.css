@@ -1,5 +1,23 @@
 *{margin: 0px;}
 
+/*  shared style */
+
+.section-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section-title span{
+    color: #1D5D9B ;
+}
+
+
+.section-description{
+    color:  #534C64;
+    font-size: 20px;
+}
+/* ------------------ */
+
 nav{
     display: flex;
     align-items: center;
@@ -60,6 +78,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 10px 0 80px 0;
 }
 
 .banner-content h1{
@@ -74,8 +93,6 @@ nav{
 }
 
 .banner-content p{
-    color:  #534C64;
-    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -101,6 +118,42 @@ nav{
 }
 
 
+/*  .... MAin ......... */
+
+
+.container-content{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.cards img{
+    width: 300px;
+}
+
+
+
+/*     play instant        */
+
+.play-instant{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+
+.mini-img{
+    position: relative;
+    right: 170px;
+    bottom: 290px;
+}
+
+.section-content{
+    margin-top: 180px ;
+}
 
 
 
