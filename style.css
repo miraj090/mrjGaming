@@ -142,7 +142,7 @@ nav{
 .play-instant{
     display: flex;
     justify-content: space-around;
-    margin: 100px 0px;
+    margin: 100px 0 0 0;
 }
 
 .mini-img{
@@ -155,7 +155,96 @@ nav{
     margin-top: 180px ;
 }
 
+/*  .........games btn......... .. */
+
+.games-btn button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.games-btn{
+    display: grid ;
+    grid-template-columns: repeat(5 ,1fr);
+    justify-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.games-btn button:hover{
+    border: 1px solid  #1D5D9B;
+    color:#1D5D9B;
+    padding: 3px;
+}
 
 
+/* ........... */
 
+footer{
+    background: #0B0223;
+    padding: 50px 0; 
+}
+
+footer ul li{
+     list-style: none;  
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-logo img{
+    width: 85px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo span{
+    color: #36E9FD;
+}
+
+.footer-logo h2{
+    font-size: 40px;
+    color: white;
+}
+
+.sochial-links  {
+    display: flex;
+    justify-content: center;
+}
+
+.sochial-links img{
+    width: 30px;
+}
+
+.sochial-links button{
+    margin: 20px;
+}
+
+.links , .policy{
+ display: flex;
+ justify-content: center;
+ margin: 30px 0px;
+}
+
+.links li , .policy li{
+    padding: 0 30px;
+}
+
+.policy a{
+    color: rgb(80, 81, 81) ;
+}
+
+footer p{
+    color: rgb(80, 81, 81);
+    text-align: center;
+}
 
