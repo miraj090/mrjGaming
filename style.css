@@ -55,6 +55,50 @@ nav{
 
 
 /*  ...... banner ...... */
+.banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-content h1{
+    font-size: 50px;
+}
+
+.Goat{
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    margin: 10px 0;
+}
+
+.banner-content p{
+    color:  #534C64;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 45px ;
+    color: white;
+    background-color: #36E9FD;
+}
+
+.btnGo{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 45px ;
+    color: white;
+    background-color: #1D5D9B;
+    margin-left: 20px;
+}
+
+.btn{
+    margin-top: 27px;
+}
 
 
 
